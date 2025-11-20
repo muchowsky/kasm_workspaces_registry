@@ -1,0 +1,17 @@
+{
+  "friendly_name": "Bamboo Studio",
+  "description": "LinuxServer.io Bamboo Studio workspace",
+  "image_src": "bamboo-studio.png",
+  "architecture": ["amd64"],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "linuxserver/bambustudio:latest",
+      "uncompressed_size_mb": 1024,
+      "available_tags": ["latest"]
+    }
+  ],
+  "docker_registry": "https://index.docker.io/v1/",
+  "cores": 2,
+  "memory": 4096
+}
