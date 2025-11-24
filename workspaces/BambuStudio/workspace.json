@@ -11,8 +11,22 @@
       "available_tags": ["latest"]
     }
   ],
+  "categories": [
+    "Browser",
+    "Productivity"
+  ],
   "notes": "Good to map volume to /home/kasm-user/.config/BambuStudio",
   "docker_registry": "https://index.docker.io/v1/",
   "cores": 2,
-  "memory": 2048
+  "memory": 2048,
+  "volume_mappings": {
+    "/srv/kasm_user_share/{image_id}/{user_id}/BambuStudioConfig": {
+      "bind": "/home/kasm-user/.config/BambuStudio",
+      "mode": "rw",
+      "uid": 1000,
+      "gid": 1000,
+      "required": true,
+      "skip_check": false
+    }
+  }
 }
