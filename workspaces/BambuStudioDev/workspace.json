@@ -8,7 +8,7 @@
       "version": "1.18.x",
       "image": "muchowsky/kasm-fedora-bambu",
       "uncompressed_size_mb": 1782,
-      "available_tags": ["latest"]
+      "available_tags": ["dev-latest"]
     }
   ],
   "notes": "Good to map volume to /home/kasm-user/.config/BambuStudio",
