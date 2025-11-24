@@ -1,5 +1,5 @@
 {
-  "friendly_name": "Bamboo Studio",
+  "friendly_name": "Bambu Studio",
   "description": "Fedora Core with BambuLab Studio and Firefox installed",
   "image_src": "bamboo-studio.png",
   "architecture": ["amd64"],
@@ -11,6 +11,7 @@
       "available_tags": ["latest"]
     }
   ],
+  "notes": "Good to map volume to /home/kasm-user/.config/BambuStudio",
   "docker_registry": "https://index.docker.io/v1/",
   "cores": 2,
   "memory": 2048
