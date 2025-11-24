@@ -15,6 +15,9 @@
     "Browser",
     "Productivity"
   ],
+  "architecture": [
+    "amd64"
+  ],
   "notes": "Good to map volume to /home/kasm-user/.config/BambuStudio",
   "docker_registry": "https://index.docker.io/v1/",
   "cores": 2,
