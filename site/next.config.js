@@ -6,9 +6,9 @@ const nextConfig = {
   env: {
     name: 'Kasm Muchowsky Registry',
     description: 'Muchowsky\'s Kasm supported workspaces.',
-    icon: 'https://muchowsky.github.io/workspaces_registry_template/1.1/image.png',
-    listUrl: 'https://muchowsky.github.io/workspaces_registry_template/',
-    contactUrl: 'https://github.com/muchowsky/workspaces_registry_template/issues',
+    icon: 'https://muchowsky.github.io/kasm_workspaces_registry/1.1/image.png',
+    listUrl: 'https://muchowsky.github.io/kasm_workspaces_registry/',
+    contactUrl: 'https://github.com/muchowsky/kasm_workspaces_registry/issues',
   },
   reactStrictMode: true,
   basePath: '/workspaces_registry_template/1.0',
