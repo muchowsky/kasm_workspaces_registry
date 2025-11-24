@@ -11,7 +11,7 @@ const nextConfig = {
     contactUrl: 'https://github.com/muchowsky/kasm_workspaces_registry/issues',
   },
   reactStrictMode: true,
-  basePath: '/workspaces_registry_template/1.0',
+  basePath: '/kasm_workspaces_registry/1.0',
   trailingSlash: true,
   images: {
     unoptimized: true,
