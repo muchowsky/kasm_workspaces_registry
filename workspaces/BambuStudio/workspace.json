@@ -1,6 +1,6 @@
 {
   "friendly_name": "Bamboo Studio",
-  "description": "LinuxServer.io Bamboo Studio workspace",
+  "description": "Fedora Core with BambuLab Studio and Firefox installed",
   "image_src": "bamboo-studio.png",
   "architecture": ["amd64"],
   "compatibility": [
