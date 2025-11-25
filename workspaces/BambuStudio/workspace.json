@@ -1,6 +1,5 @@
 {
   "friendly_name": "Bambu Studio",
-  "name": "muchowsky/kasm-fedora-bambu"
   "description": "Fedora Core with BambuLab Studio v02.04.00.70 and Firefox installed",
   "image_src": "bamboo-studio.png",
   "architecture": ["amd64"],
