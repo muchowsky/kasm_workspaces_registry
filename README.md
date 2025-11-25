@@ -15,3 +15,8 @@ A Fedora-based workspace that includes:
 * **Firefox** – a stable and privacy-focused web browser.
 
 This image is designed to provide a ready-to-use environment for 3D printing workflows directly in your Kasm deployment.
+
+
+## Discovery
+
+The tag below will hopefully make it easier for people to find your Workspace Registry by clicking on [this github search link](https://github.com/search?q=in%3Areadme+sort%3Aupdated+-user%3Akasmtech+%22KASM-REGISTRY-DISCOVERY-IDENTIFIER%22&type=repositories). If you want to make it harder to find your repository for some reason, just remove this section.
