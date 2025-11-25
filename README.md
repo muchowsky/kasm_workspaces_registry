@@ -7,7 +7,7 @@ This repository contains custom [Kasm Workspaces](https://kasm.com/) images tail
 
 ## Available Images
 
-### **Fedora Core Workspace**
+### **Bambustudio**
 
 A Fedora-based workspace that includes:
 
