@@ -16,6 +16,7 @@ A Fedora-based workspace that includes:
 
 This image is designed to provide a ready-to-use environment for 3D printing workflows directly in your Kasm deployment.
 
+Volume Mappings is configured by default which means that you need to edit and save workspace in order to install it on your system
 
 ## Discovery
 
