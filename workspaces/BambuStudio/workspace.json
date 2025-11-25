@@ -6,7 +6,7 @@
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "muchowsky/kasm-fedora-bambu:v02.04.00.70",
+      "image": "muchowsky/kasm-fedora-bambu:1.18.x",
       "uncompressed_size_mb": 4630,
       "available_tags": ["1.18.x"]
     }
