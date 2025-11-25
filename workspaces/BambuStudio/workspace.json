@@ -1,35 +1,36 @@
 {
-  "friendly_name": "Bambu Studio",
-  "description": "Fedora Core with BambuLab Studio v02.04.00.70 and Firefox installed",
-  "image_src": "bamboo-studio.png",
-  "architecture": ["amd64"],
-  "compatibility": [
-    {
-      "version": "1.18.x",
-      "image": "muchowsky/kasm-fedora-bambu:1.18.x",
-      "uncompressed_size_mb": 4630,
-      "available_tags": ["1.18.x"]
+    "friendly_name": "Bambu Studio",
+    "description": "Fedora Core with BambuLab Studio v02.04.00.70 and Firefox installed",
+    "image_src": "bamboo-studio.png",
+    "architecture": [
+        "amd64"
+    ],
+    "compatibility": [
+        {
+            "version": "1.18.x",
+            "image": "muchowsky/kasm-fedora-bambu:1.18.x",
+            "uncompressed_size_mb": 4630,
+            "available_tags": [
+                "1.18.x"
+            ]
+        }
+    ],
+    "categories": [
+        "Productivity",
+        "Browser"
+    ],
+    "notes": "Good to map volume to /home/kasm-user/.config/BambuStudio",
+    "docker_registry": "https://index.docker.io/v1/",
+    "cores": 2,
+    "memory": 2048,
+    "volume_mappings": {
+        "/srv/kasm_user_share/{image_id}/{user_id}/BambuStudioConfig": {
+            "bind": "/home/kasm-user/.config/BambuStudio",
+            "mode": "rw",
+            "uid": 1000,
+            "gid": 1000,
+            "required": true,
+            "skip_check": false
+        }
     }
-  ],
-  "categories": [
-    "Productivity",
-    "Browser"
-  ],
-  "architecture": [
-    "amd64"
-  ],
-  "notes": "Good to map volume to /home/kasm-user/.config/BambuStudio",
-  "docker_registry": "https://index.docker.io/v1/",
-  "cores": 2,
-  "memory": 2048,
-  "volume_mappings": {
-    "/srv/kasm_user_share/{image_id}/{user_id}/BambuStudioConfig": {
-      "bind": "/home/kasm-user/.config/BambuStudio",
-      "mode": "rw",
-      "uid": 1000,
-      "gid": 1000,
-      "required": true,
-      "skip_check": false
-    }
-  }
 }
